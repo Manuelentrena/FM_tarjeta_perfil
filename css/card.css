@@ -1,0 +1,74 @@
+.card {
+  background-color: white;
+  width: 40rem;
+  height: 43rem;
+  border-radius: 2rem;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 5px 5px 25px 0px rgba(0, 0, 0, 0.25);
+}
+.card__header {
+  background-image: url(/images/bg-pattern-card.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 16rem;
+  position: relative;
+}
+.card__picture {
+  position: absolute;
+  left: 50%;
+  top: 100%;
+  transform: translate(-50%, -50%);
+  padding: 0.75rem;
+  background-color: white;
+  border-radius: 50%;
+}
+.card__img {
+  border-radius: 50%;
+}
+.card__body {
+  margin: 8rem 3rem 0rem 3rem;
+  width: auto;
+  height: 16rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card__text {
+  text-align: center;
+}
+.card__title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--very-dark-desaturated-blue);
+}
+
+.card__title span {
+  font-weight: normal;
+  margin-left: 1rem;
+  color: var(--dark-grayish-blue);
+}
+.card__subtitle {
+  margin-top: 1.5rem;
+  font-size: 1.5rem;
+  letter-spacing: 0.1rem;
+  color: var(--dark-gray);
+}
+.card__footer {
+  display: flex;
+  justify-content: space-around;
+}
+.card__social {
+  text-align: center;
+}
+.card__socialData {
+  margin-top: 1rem;
+  letter-spacing: 0.2rem;
+  color: var(--dark-gray);
+  font-size: 1.2rem;
+}
+.card__socialNumbers {
+  font-size: 2rem;
+  font-weight: bold;
+}

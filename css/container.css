@@ -1,0 +1,22 @@
+.container {
+  position: relative;
+  background-color: var(--dark-cyan);
+  margin: 11rem 5rem;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  height: 75vh;
+  border-radius: 2rem;
+}
+
+.container__svgtop {
+  position: absolute;
+  top: -55rem;
+  left: -12rem;
+}
+
+.container__svgbottom {
+  position: absolute;
+  bottom: -55rem;
+  right: -12rem;
+}
